@@ -1,5 +1,4 @@
-/* eslint-disable */
-const USER_CONFIG = {
+export const config = {
   /**
    * 公众号配置
    */
@@ -60,14 +59,14 @@ const USER_CONFIG = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [oWurd6gmxg4OrJXIkeP7400jFkxk]
+  USERS: [oWurd6pDW0rNyidPpp-c2lG3ZuA0
     {
       // 想要发送的人的名字
       name: '猪猪0',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oWurd6pDW0rNyidPpp-c2lG3ZuA0',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '95p4sF3lmQOvPHiW9eKdh--xqdjn67Davq23MiSOeYU',
       // 所在省份
       province: '福建',
       // 所在城市
@@ -96,10 +95,6 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
-        // 退伍日
-        { keyword: 'ex_day', date: '2022-09-10' }
       ],
       // 课程表相关配置
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -168,44 +163,18 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
+      name: '小宝宝',
+      id: 'oWurd6pDW0rNyidPpp-c2lG3ZuA0',
+      useTemplateId: '95p4sF3lmQOvPHiW9eKdh--xqdjn67Davq23MiSOeYU',
+      province: '福建',
+      city: '连江',
+      horoscopeDate: '11.29',
       horoscopeDateType: '',
       openUrl: 'https://wangxinleo.cn',
       festivals: [],
       customizedDateList: [],
       courseSchedule: null
     },
-    {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    }
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -215,15 +184,15 @@ const USER_CONFIG = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '4M6q2uiNEZrX6t50iBmbhWXxLkGF2Z-iPpRfFHXZ01g',
+  CALLBACK_TEMPLATE_ID: '95p4sF3lmQOvPHiW9eKdh--xqdjn67Davq23MiSOeYU',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
+  CALLBACK_USERS: [oWurd6pDW0rNyidPpp-c2lG3ZuA0
     {
       // 一般都填自己
       name: '自己',
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oWurd6gmxg4OrJXIkeP7400jFkxk',
+      id: 'oWurd6pDW0rNyidPpp-c2lG3ZuA0',
     }
     // 你可以不断按格式往下增加
     // ...
@@ -291,10 +260,6 @@ const USER_CONFIG = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     { keyword: 'love_day', date: '2017-01-01' },
-    // 结婚纪念日
-    { keyword: 'marry_day', date: '2022-09-09' },
-    // 退伍日
-    { keyword: 'ex_day', date: '2022-09-10' }
     // 你可以不断按格式往下增加
     // ...
   ],
